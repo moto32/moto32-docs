@@ -46,6 +46,18 @@ Perfect for custom motorcycles and DIY builders.
   ---
   Order PCB
   :::
+
+  :::u-button
+  ---
+  color: neutral
+  icon: simple-icons-buymeacoffee
+  size: xl
+  to: https://buymeacoffee.com/iamcanarin
+  variant: outline
+  target: _blank
+  ---
+  Buy Me a Coffee
+  :::
 ::
 
 ::u-page-section
@@ -229,29 +241,42 @@ Get your Moto32 unit up and running in minutes:
 id: sponsor
 ---
 #title
-Manufacturing Partner
+Support & Sponsors
 
 #description
-::div{class="flex flex-col items-center gap-4"}
+::div{class="flex flex-col items-center gap-6"}
   ::div{class="text-center"}
   **Huge thanks to [PCBWay](https://www.pcbway.com) for sponsoring PCB fabrication!**
   
   PCBWay provides high-quality PCB manufacturing, fast turnaround times, and excellent support. Their sponsorship makes this open-source project accessible to the entire community.
   ::
 
-  :::u-button
-  ---
-  color: primary
-  size: lg
-  to: https://www.pcbway.com/project/shareproject/Motogadget_Clone_0a54cb40.html
-  target: _blank
-  trailing-icon: i-lucide-external-link
-  ---
-  Order on PCBWay
-  :::
+  ::div{class="flex flex-wrap gap-4 justify-center"}
+    :::u-button
+    ---
+    color: primary
+    size: lg
+    to: https://www.pcbway.com/project/shareproject/Motogadget_Clone_0a54cb40.html
+    target: _blank
+    trailing-icon: i-lucide-external-link
+    ---
+    Order on PCBWay
+    :::
 
-  ::div{class="text-sm text-gray-600 dark:text-gray-400 text-center"}
-  Get professionally manufactured PCBs with quality components and assembly services.
+    :::u-button
+    ---
+    color: amber
+    icon: simple-icons-buymeacoffee
+    size: lg
+    to: https://buymeacoffee.com/iamcanarin
+    target: _blank
+    ---
+    Buy Me a Coffee
+    :::
+  ::
+
+  ::div{class="text-sm text-gray-600 dark:text-gray-400 text-center max-w-2xl"}
+  If you find this project helpful, consider supporting its development! Your contributions help maintain documentation, develop new features, and keep the project alive.
   ::
 ::
 ::
