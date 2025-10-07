@@ -1,12 +1,34 @@
 {
-  "name": "docus-starter",
+  "name": "moto32-docs",
+  "version": "1.0.0",
+  "description": "Complete documentation for Moto32 open-source motorcycle control unit",
+  "author": "Moto32 Project",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaksatomovic/motogadget-clone"
+  },
+  "keywords": [
+    "moto32",
+    "motorcycle",
+    "esp32",
+    "control-unit",
+    "motogadget",
+    "m-unit",
+    "open-source",
+    "hardware",
+    "documentation"
+  ],
   "scripts": {
     "dev": "nuxt dev --extends docus",
-    "build": "nuxt build --extends docus"
+    "build": "nuxt build --extends docus",
+    "generate": "nuxt generate --extends docus",
+    "preview": "nuxt preview --extends docus"
   },
   "dependencies": {
     "docus": "latest",
     "better-sqlite3": "^12.2.0",
     "nuxt": "^4.1.2"
-  }
+  },
+  "devDependencies": {}
 }
