@@ -18,6 +18,11 @@ export default defineNuxtConfig({
           src: 'https://sponsorapp.io/platform.js?p=b23aa2521d1f6a99',
           async: true,
           defer: true
+        },
+        {
+          src: 'https://cloud.umami.is/script.js',
+          defer: true,
+          'data-website-id': '7fa05be7-2d37-4c40-ae0b-8ca27bfc156e'
         }
       ],
       meta: [
